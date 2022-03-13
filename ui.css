@@ -1,0 +1,42 @@
+form.wallpaper_contest * {
+	box-sizing: border-box;
+}
+
+form.wallpaper_contest > div {
+	margin-bottom: 1em;
+}
+
+form.wallpaper_contest label,
+form.wallpaper_contest input[type="text"],
+form.wallpaper_contest input[type="file"],
+form.wallpaper_contest textarea {
+	display: block;
+	width: 100%;
+}
+
+form.wallpaper_contest span.description {
+	display: block;
+
+	font-size: 80%;
+	line-height: 1.3em;	
+	margin-top: 0.5em;
+}
+
+form.wallpaper_contest .license > div,
+form.wallpaper_contest #wallpaper-contest-submission {
+	margin: 1em 0;
+	padding: 1em;
+	background-color: rgba( 0, 0, 0, 0.05 );
+}
+
+form.wallpaper_contest > div > label {
+	margin: 0 0 0.5em 0;
+	font-weight: 600;
+}
+
+form.wallpaper_contest > div.terms > label {
+	font-weight: 400;
+}
+
+/* TODO: This belongs to the theme file */
+
