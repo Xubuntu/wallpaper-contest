@@ -544,7 +544,9 @@ function wallpaper_contest_ui_vote_results( ) {
 			echo '<p>Submissions total: ' . count( $submissions ) . '</p>';
 			echo '<ul>';
 			foreach( $voters as $voter => $name ) {
-				print '<li><strong>' . $name . '</strong>: ' . $voters_count[$voter] . '</li>';
+				if( $voters_count[$voter] > 0 ) {
+					print '<li><strong>' . $name . '</strong>: ' . $voters_count[$voter] . '</li>';
+				}
 			}
 			echo '</ul>';
 		?>
